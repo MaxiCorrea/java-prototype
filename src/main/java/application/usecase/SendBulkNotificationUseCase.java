@@ -1,9 +1,9 @@
-package application;
+package application.usecase;
 
 import java.util.List;
 
+import application.port.NotificationSenderPort;
 import domain.Notification;
-import domain.NotificationSenderPort;
 
 public class SendBulkNotificationUseCase {
 

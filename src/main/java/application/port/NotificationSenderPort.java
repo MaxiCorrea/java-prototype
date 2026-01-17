@@ -1,4 +1,6 @@
-package domain;
+package application.port;
+
+import domain.Notification;
 
 public interface NotificationSenderPort {
 

@@ -6,8 +6,9 @@ import java.util.UUID;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
+import application.port.NotificationSenderPort;
+import application.usecase.SendBulkNotificationUseCase;
 import domain.Notification;
-import domain.NotificationSenderPort;
 import domain.NotificationTemplate;
 
 class SendBulkNotificationUseCaseTest {
